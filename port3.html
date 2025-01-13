@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Prakash - UI/UX Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background: url('https://img.pikbest.com/backgrounds/20241215/abstract-blue-background-with-some-smooth-lines-in-it--28see-more-my-portfolio-29_11256315.jpg!bw700') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            background: linear-gradient(135deg, rgba(30, 144, 255, 0.8), rgba(0, 191, 255, 0.8));
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;  /* Increased font size */
+        }
+
+        header p {
+            margin: 0.5em 0 0;
+            font-size: 1.8em;  /* Increased font size */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(244, 244, 244, 0.9);
+            padding: 1.2em 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 1.5em;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.3em;  /* Increased font size */
+        }
+
+        nav a:hover {
+            color: #1E90FF;
+        }
+
+        section {
+            padding: 3.5em 1.5em;  /* Reduced padding to make boxes smaller */
+            background: rgba(255, 255, 255, 0.7);  /* Increased transparency */
+            margin: 1.5em;
+            border-radius: 10px;
+        }
+
+        .landing {
+            text-align: center;
+            padding: 4.5em 1.5em;  /* Reduced padding */
+            background: rgba(247, 250, 255, 0.7);
+        }
+
+        .landing h2 {
+            font-size: 2.8em;  /* Increased font size */
+            margin-bottom: 1em;
+        }
+
+        .landing p {
+            font-size: 1.5em;  /* Increased font size */
+            margin-bottom: 2em;
+        }
+
+        .landing a {
+            display: inline-block;
+            padding: 0.8em 2.5em;
+            background-color: #1E90FF;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;  /* Increased font size */
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .landing a:hover {
+            background-color: #00BFFF;
+        }
+
+        .project {
+            margin-bottom: 2.5em;  /* Reduced margin */
+        }
+
+        .project h3 {
+            color: #1E90FF;
+            margin-bottom: 0.5em;
+            font-size: 1.8em;  /* Increased font size */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5em;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: rgba(244, 244, 244, 0.7);  /* Increased transparency */
+            padding: 1.2em;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 1.2em;  /* Increased font size */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aditya Prakash</h1>
+        <p>Crafting Cloud and Data-Driven Solutions for Tomorrow's Innovations</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="landing">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my journey in technology, from cloud solutions to data analysis and innovative projects.</p>
+        <a href="#projects">View My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated B.Tech Information Technology student with expertise in AWS Cloud, Data Science, and Big Data Analytics. With a proven track record of hard work and a passion for delivering results, I am eager to leverage my skills and knowledge to drive innovation in the tech industry.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>User Interface of Shopping Website</h3>
+            <p>Built a shopping interface using Python and Tkinter, featuring a server as the shopkeeper and a client as the customer. Designed for a user-friendly shopping experience.</p>
+        </div>
+
+        <div class="project">
+            <h3>Rain Data Analysis</h3>
+            <p>Developed a machine learning model to predict rain using Python libraries like NumPy, Pandas, Matplotlib, and Sklearn. Created insightful visualizations to analyze patterns.</p>
+        </div>
+
+        <div class="project">
+            <h3>COVID-19 Data Analysis</h3>
+            <p>Designed interactive dashboards to track COVID-19 trends using Power BI, integrated with real-time Kafka streams and Spark-processed datasets.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>Python</li>
+            <li>C++</li>
+            <li>Big Data: Hadoop, Hive, Kafka, Spark</li>
+            <li>Power BI</li>
+            <li>MySQL</li>
+            <li>AWS Certified</li>
+            <li>Socket Programming</li>
+            <li>Arduino & Raspberry Pi</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: aditya123.mgs@gmail.com</p>
+        <p>Phone: +91-7985126930</p>
+        <p><a href="https://www.linkedin.com/in/aditya-prakash-51962522b/">LinkedIn</a> | <a href="https://github.com/adityaprakash2021">GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aditya Prakash. All rights reserved.</p>
+    </footer>
+</body>
+</html>
